@@ -34,8 +34,8 @@ A Retrieval-Augmented Generation (RAG) system for product inventory management u
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd product-inventory-rag
+git clone https://github.com/diyakamboj/rag_using_csv_data
+cd rag_using_csv_data
 ```
 
 2. Create and activate virtual environment:
@@ -106,7 +106,7 @@ python main.py
 
 ```mermaid
 graph LR
-    A[CSV Data] --> B[Document Loader]
+    A[CSV Data] --> B[Document Loader (CSVLoader)]
     B --> C[Transformer]
     C --> D[Text Splitter]
     D --> E[Embeddings]
