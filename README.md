@@ -106,7 +106,7 @@ python main.py
 
 ```mermaid
 graph LR
-    A[CSV Data] --> B[Document Loader (CSVLoader)]
+    A[CSV Data] --> B[Document Loader - CSVLoader]
     B --> C[Transformer]
     C --> D[Text Splitter]
     D --> E[Embeddings]
